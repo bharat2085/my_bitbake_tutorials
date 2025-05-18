@@ -1,0 +1,12 @@
+export PATH=$PATH:$PWD/bitbake/bin
+export PYTHONPATH=$PYTHONPATH:$PWD/bitbake/lib
+
+echo "bitbake binary path  added to PATH"
+mkdir -p build_dir
+cd build_dir
+
+
+echo "changed to build directory, you can run bitbake target command now.."
+
+bitbake --version
+

@@ -1,0 +1,30 @@
+A practical guide to BitBake tutorial: by Harald Achitz
+Version 1.6,  2022 Q2
+
+https://a4z.gitlab.io/docs/BitBake/guide.html
+
+
+
+Bitbake Source code sync:
+
+git clone -b 1.52.0 https://github.com/openembedded/bitbake
+
+
+#Add bitbake binary and pythonpath, as done by yocto init script.
+export PATH=$PWD/bitbake/bin:$PATH
+export PYTHONPATH=$PWD/bitbake/lib:$PYTHONPATH
+
+Or alternatively you can run environment setup script.
+
+
+#Check verisions for compatibility match
+Run python3 --version to check version of python is 3.8.8 or later 
+Run bibake --version to check the version of bitbake is 1.52.0
+
+
+
+
+Tutorials and sample code:
+Samples for the BitBake tutorial at http://a4z.gitlab.io/docs/BitBake/guide.html
+
+git clone  https://bitbucket.org/a4z/bitbakeguide/src 
